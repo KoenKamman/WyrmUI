@@ -1,7 +1,8 @@
-import { html, css, LitElement, property } from 'lit-element';
+import { html, css, LitElement, property, customElement } from 'lit-element';
 
-export class WyrmUi extends LitElement {
-  static styles =css`
+@customElement('wyrm-button')
+export class WyrmButton extends LitElement {
+  static styles = css`
     :host {
       display: block;
       padding: 25px;
@@ -9,9 +10,9 @@ export class WyrmUi extends LitElement {
     }
   `;
 
-  @property({type: String}) title = 'Hey there';
+  @property({ type: String }) title = 'Hey there';
 
-  @property({type: Number}) counter = 5;
+  @property({ type: Number }) counter = 5;
 
   __increment() {
     this.counter += 1;

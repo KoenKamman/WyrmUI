@@ -1,15 +1,15 @@
 ```js script
 import { html } from '@open-wc/demoing-storybook';
-import '../dist/wyrm-ui.js';
+import '../dist/wyrm-button.js';
 
 export default {
-  title: 'WyrmUi',
-  component: 'wyrm-ui',
+  title: 'WyrmButton',
+  component: 'wyrm-button',
   options: { selectedPanel: "storybookjs/knobs/panel" },
 };
 ```
 
-# WyrmUi
+# WyrmButton
 
 A component for...
 
@@ -24,16 +24,16 @@ A component for...
 ### Installation
 
 ```bash
-yarn add wyrm-ui
+yarn add wyrm-button
 ```
 
 ```js
-import 'wyrm-ui/wyrm-ui.js';
+import 'wyrmui/wyrm-button.js';
 ```
 
 ```js preview-story
 export const Simple = () => html`
-  <wyrm-ui></wyrm-ui>
+  <wyrm-button></wyrm-button>
 `;
 ```
 
@@ -43,6 +43,6 @@ export const Simple = () => html`
 
 ```js preview-story
 export const CustomTitle = () => html`
-  <wyrm-ui title="Hello World"></wyrm-ui>
+  <wyrm-button title="Hello World"></wyrm-button>
 `;
 ```
