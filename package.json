@@ -1,7 +1,7 @@
 {
   "name": "wyrmui",
   "version": "0.0.0",
-  "description": "Webcomponent wyrm-ui following open-wc recommendations",
+  "description": "UI library using Web Components",
   "author": "Koen Kamman",
   "license": "MIT",
   "main": "dist/index.js",
