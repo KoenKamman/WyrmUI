@@ -1,5 +1,6 @@
 name: Build and Deploy
 on:
+  workflow_dispatch:
   push:
     paths: [".storybook/**", "stories/**", "src/**"]
     branches:
