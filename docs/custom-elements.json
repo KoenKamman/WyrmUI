@@ -2,7 +2,7 @@
   "version": 2,
   "tags": [
     {
-      "name": "wyrm-ui",
+      "name": "wyrm-button",
       "description": "A component with a title and an action counter",
       "properties": [
         {
@@ -22,7 +22,7 @@
       "slots": [],
       "cssProperties": [
         {
-          "name": "--wyrm-ui-text-color",
+          "name": "--wyrm-button-text-color",
           "description": "Main Text Color",
           "type": "Color"
         }
