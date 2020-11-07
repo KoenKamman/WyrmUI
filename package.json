@@ -29,8 +29,6 @@
     "@open-wc/demoing-storybook": "^2.0.0",
     "@open-wc/eslint-config": "^4.0.0",
     "@open-wc/testing": "^2.0.0",
-    "@storybook/addons": "^6.0.28",
-    "@storybook/theming": "^6.0.28",
     "@types/node": "13.11.1",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
