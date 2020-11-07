@@ -19,7 +19,7 @@
     "test": "tsc && web-test-runner --coverage",
     "test:watch": "web-test-runner --watch",
     "storybook": "concurrently --kill-others --names tsc,storybook \"npm run tsc:watch\" \"start-storybook --node-resolve --watch --open\"",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook -o docs-build"
   },
   "dependencies": {
     "lit-html": "^1.1.2",
