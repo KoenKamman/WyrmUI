@@ -6,7 +6,7 @@ export class WyrmButton extends LitElement {
     :host {
       display: block;
       padding: 25px;
-      color: var(--wyrm-ui-text-color, #000);
+      color: var(--wyrm-button-text-color, #000);
     }
   `;
 
